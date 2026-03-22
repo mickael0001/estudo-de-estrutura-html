@@ -1,0 +1,48 @@
+body {
+    font-family: arial Impact;
+    margin: 0;
+    background-color: bisque;
+}
+
+header {
+    background: lightgray;
+    padding: 15px;
+
+}
+
+
+section {
+    height: 100vh; /* ocupa 100% da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+#home {
+    background-color: beige;
+}
+
+#sobre { 
+    background-color: white;
+}
+
+#contato { 
+    background-color: lightgray;
+}
+
+button {
+    padding: 10px;
+    margin: auto;
+    border-radius: 10%;
+    background-color: beige;
+}
+
+iframe {
+    width: 90%;
+    max-width: 600px;
+    height: 315px;
+}
